@@ -5,11 +5,17 @@ import ProfilePhoto from './Components/Profile/ProfilePhoto';
 
 function App() {
   return (
+    <container className='main'>
+
     <div className="App">
+    <ProfilePhoto />
+    <div className='nadress'>
+
       <FullName className="name"/>
-      <Address/>
-      <ProfilePhoto/>
+      <Address className="address"/>
     </div>
+    </div>
+    </container>
   );
 }
 

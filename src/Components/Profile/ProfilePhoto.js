@@ -3,7 +3,7 @@ import pdp from './pdp.jpg' ;
 
 const ProfilePhoto = () => {
   return (
-    <div>
+    <div >
         <img src={pdp} alt="ProfilePhoto" />
     </div>
   )

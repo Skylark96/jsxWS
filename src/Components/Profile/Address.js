@@ -3,7 +3,7 @@ import React from 'react'
 const Address = () => {
   return (
     <div>
-el Attaya - Kerkennah - Sfax
+        <h2 className="address">el Attaya - Kerkennah - Sfax - Tunisia</h2>
     </div>
   )
 }
